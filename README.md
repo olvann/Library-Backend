@@ -7,7 +7,7 @@
 
 ### Resources
 
-* [Collection to test the service](https://)
+* [Postman collection](Ximple%20library.postman_collection.json)
 * [Local health check](http://localhost:8080/actuator/health)
 * [Local Swagger](http://localhost:8080/swagger-ui/index.html)
 
