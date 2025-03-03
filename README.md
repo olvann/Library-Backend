@@ -27,6 +27,8 @@ You can check that the service is running by accessing to the [health check](htt
 
 The project uses flyway so the required tables and some test data will be added to the mysql database
 
+## Database diagram
+![Database diagram](LibraryDiagram.png)
 
 
 
