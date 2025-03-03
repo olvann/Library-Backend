@@ -2,7 +2,7 @@
 
 ### Requirements
 * Java 21
-* Local mysql database
+* Docker
 * Maven 3.X
 
 ### Resources
@@ -12,13 +12,9 @@
 * [Local Swagger](http://localhost:8080/swagger-ui/index.html)
 
 ### How to run the project
-A local mysql database is required before running
-with 
-`jdbc = jdbc:mysql://localhost/librarydb,
-user = root, 
-password = 123456`
 
-alternatively the docker compose file can be used to run the database
+
+Use the next command to run a database using docker, with the required authentication details is already in the project
 `docker-compose up -d`
 
 Before running compile the project since it uses auto generated sources
